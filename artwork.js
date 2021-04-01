@@ -1,7 +1,7 @@
 console.log('uhoh')
 
 // Higher number = more zoom
-let scaleAmount = 0.5;
+let scaleAmount = 0.4;
 
 function scrollZoom() {
   const images = document.querySelectorAll("[data-scroll-zoom]");

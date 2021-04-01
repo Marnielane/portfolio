@@ -82,54 +82,15 @@ html{
     line-height: 1.8em;
 }
 
-body {
-    margin: 0;
-}
-
-.background {
-    align-items: center;
-    background: rgb(75, 74, 74);
-    background: linear-gradient(90deg, rgb(43, 43, 43) 0%, rgb(75, 74, 74) 50%, rgb(121, 121, 121) 100%);
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    width: 100vw;
-}
-
-.container2 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 600vh;
-    justify-content: space-around;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100vmin;
-}
-
-p {
-    font-family: 'Amatic SC';
-    color: whitesmoke;
-    font-size: 20px;
-    line-height: 1.5;
-    max-width: 70vmin;
-    text-align: justify;
-    text-transform: none;
-}
-
-.image {
-    background: white;
-    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.25);
-    border: 15px solid white;
-    border-width: 1vmin 1vmin 10vmin 1vmin;
-    height: 70vmin;
-    overflow: hidden;
-    width: 70vmin;
-}
-
-.image img {
-    height: 100%;
-    object-fit: cover;
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image:url('../images/mayflower-ski.jpeg');
     width: 100%;
+    height: 100%;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
 }
-
