@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <script src="contact.js" defer></script>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Rock+Salt&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="../images/MRLogoWhite.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="projects.html">Tech Projects</a></li>
+                    <li><a href="artwork.html">Artwork</a></li>
+                    <li><a href="https://marnielane.medium.com/">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="blurred-box">
+        <!--  you dont need the user-login-box html  -->
+        <!--  for demo purposes only and its shit  -->
+        <div class="contact-box">
+            <span class="contact-logo"></span>
+            <div class="contact-title">
+                <h1>Get in Touch</h1>
+            </div>
+            <div class="contact-form">
+                <form action="" id="contact-form" method="POST">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required><br>
+                    <textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea><br>
+                    <input type="submit" class="form-control-submit" value="Send Message">
+                </form>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

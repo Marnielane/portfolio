@@ -1,3 +1,251 @@
-body {
-    background-color:cadetblue;
+main, body, html{
+    height: 100%;
+    margin:0;
+    font-size: 16px;
+    font-family: 'Amatic SC';
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: rgb(75, 74, 74);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding:5px 0;
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+nav {
+    float:right;
+    opacity: 0.85;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 35px;
+    padding-top: 15px;
+    position: relative;
+    color: whitesmoke;
+}
+
+nav a{
+    color: #fbfbfc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: rgb(129, 11, 35);
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image:url('../images/marnie-smile-pic.jpg');
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image:url('../images/pillows-on-grass.jpg');
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image:url('../images/ceramic-quilt.JPG');
+    min-height: 400px;
+}
+
+.pimg4{
+    background-image:url('../images/mayflower-ski.jpeg');
+    min-height: 100%;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: whitesmoke;
+    color: rgb(75, 74, 74);
+}
+
+.section-dark{
+    background-color: rgb(75, 74, 74);
+    color: lightgrey;
+    letter-spacing: 5px;
+}
+
+.ptext.firstname{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: left;
+    color: black;
+    font-size: 70px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Rock Salt';
+}
+
+.ptext.lastname{
+    position: absolute;
+    top:80%;
+    width: 100%;
+    text-align: right;
+    color: black;
+    font-size: 60px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Rock Salt';
+}
+.ptext.firstname .border.first{
+    background-color:transparent;
+    color: whitesmoke;
+    padding:20px;
+}
+
+.ptext.lastname .border.last{
+    background-color:transparent;
+    color: whitesmoke;
+    padding:20px;
+}
+
+.ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: rgb(75, 74, 74);
+    color: whitesmoke;
+    padding:20px;
+    font-family: 'Rock Salt';
+}
+
+.ptext .border:hover{
+    color: black
+}
+
+.ptext .border.trans{
+    background-color:transparent;
+}
+
+.ptext .border.trans:hover{
+    color: black
+}
+
+footer {
+    background-color: whitesmoke;
+    color: rgb(75, 74, 74);
+    max-height: 150px;
+}
+
+footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(75, 74, 74);
+    letter-spacing: 5px;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    background-color: whitesmoke;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.media {
+    top: 20%;
+    left: 50%;
+    color: rgb(75, 74, 74);
+}
+
+.icons {
+    list-style: none;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px 20px;
+    max-width: 180px;
+    transition: .5s;
+
+}
+
+i:hover {
+    color: black;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.button:hover {
+    color: black;
+    transition: .5s;
 }
