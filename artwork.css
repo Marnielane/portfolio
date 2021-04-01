@@ -39,6 +39,8 @@ p {
     height: 70vmin;
     overflow: hidden;
     width: 70vmin;
+    display: flex;
+    
 }
 
 img {
