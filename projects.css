@@ -40,7 +40,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 25px;
     padding-top: 15px;
     position: relative;
     color: whitesmoke;
@@ -136,7 +136,7 @@ body{
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('../images/runeruminations.png');
+    background-image: url('../png/runeruminations.png');
     background-repeat: no-repeat;
 }
 
@@ -145,7 +145,7 @@ body{
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('../images/WiTTYWomen.png');
+    background-image: url('../png/WiTTYWomen.png');
     background-repeat: no-repeat;
 }
 
@@ -154,7 +154,7 @@ body{
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('../images/MRLogo.png');
+    background-image: url('../png/MRLogo.png');
     background-repeat: no-repeat;
 }
 
@@ -187,12 +187,4 @@ i:hover {
     transition: .5s;
 }
 
-/* input.user-password{
-    width: 120px;
-    height: 18px;
-    opacity: 0.4;
-    border-radius: 2px;
-    padding: 5px 15px;
-    border: 0;
-} */
 
