@@ -98,18 +98,19 @@ nav a:hover::before {
 }
 
 .pimg2{
-    background-image:url('../images/pillows-on-grass.jpg');
+    background-image:url('../images/columbines.jpg');
     min-height: 400px;
 }
 
 .pimg3{
-    background-image:url('../images/ceramic-quilt.JPG');
+    background-image:url('../images/pillows-on-grass.jpg');
     min-height: 400px;
 }
 
 .pimg4{
-    background-image:url('../images/mayflower-ski.jpeg');
+    background-image:url('../images/mayflower.jpg');
     min-height: 100%;
+    opacity: .8;
 }
 
 .section{
@@ -119,11 +120,13 @@ nav a:hover::before {
 
 .section-light{
     background-color: whitesmoke;
+    background: linear-gradient(90deg, cornsilk 0%, whitesmoke) 50%, white 100%);
     color: rgb(75, 74, 74);
 }
 
 .section-dark{
-    background-color: rgb(75, 74, 74);
+    background: rgb(75, 74, 74);
+    background: linear-gradient(90deg, rgb(43, 43, 43) 0%, rgb(75, 74, 74) 35%, rgb(121, 121, 121) 100%);
     color: lightgrey;
     letter-spacing: 5px;
 }
@@ -240,7 +243,7 @@ footer::after {
 
 i:hover {
     color: black;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     transition: .5s;
 }
 
