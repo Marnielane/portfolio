@@ -120,8 +120,10 @@ nav a:hover::before {
 
 .section-light{
     background-color: whitesmoke;
-    background: linear-gradient(90deg, cornsilk 0%, whitesmoke) 50%, white 100%);
+    background: linear-gradient(90deg, rgb(255, 251, 234) 0%, whitesmoke 25%, white 100%);
     color: rgb(75, 74, 74);
+    font-size: 25px;
+    letter-spacing: 5px;
 }
 
 .section-dark{
@@ -129,6 +131,7 @@ nav a:hover::before {
     background: linear-gradient(90deg, rgb(43, 43, 43) 0%, rgb(75, 74, 74) 35%, rgb(121, 121, 121) 100%);
     color: lightgrey;
     letter-spacing: 5px;
+    font-size: 25px;
 }
 
 .ptext.firstname{
