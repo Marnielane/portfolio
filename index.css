@@ -98,17 +98,17 @@ nav a:hover::before {
 }
 
 .pimg2{
-    background-image:url('../images/columbines.jpg');
+    background-image:url('https://marnielane.github.io/portfolio-app/images/columbines.jpg');
     min-height: 400px;
 }
 
 .pimg3{
-    background-image:url('../images/pillows-on-grass.jpg');
+    background-image:url('https://marnielane.github.io/portfolio-app/images/pillows-on-grass.jpg');
     min-height: 400px;
 }
 
 .pimg4{
-    background-image:url('../images/mayflower.jpg');
+    background-image:url('https://marnielane.github.io/portfolio-app/images/mayflower.jpg');
     min-height: 100%;
     opacity: .8;
 }
