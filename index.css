@@ -93,7 +93,7 @@ nav a:hover::before {
 }
 
 .pimg1{
-    background-image:url('../images/marnie-smile-pic.jpg');
+    background-image:url('%PUBLIC_URL%/images/marnie-smile-pic.jpg');
     min-height: 100%;
 }
 
