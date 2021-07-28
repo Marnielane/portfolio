@@ -87,7 +87,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
-    background-image:url('../images/scarlettcolumbine.jpg');
+    background-image:url('marnielane.github.io/portfolio/images/scarlettcolumbine.jpg');
     width: 100%;
     height: 100%;
     font-family: 'Rock Salt';
@@ -140,7 +140,7 @@ body{
     position: relative;
     border-radius: 50%;
     background-size: contain;
-    background-image: url('../images/MRLogo.png');
+    background-image: url('marnielane.github.io/portfolio/images/MRLogo.png');
 }
 
 .contact-title{
