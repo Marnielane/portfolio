@@ -93,22 +93,22 @@ nav a:hover::before {
 }
 
 .pimg1{
-    background-image:url('https://marnielane.github.io/portfolio/images/marnie-smile-pic.jpg');
+    background-image:url('./images/marnie-smile-pic.jpg');
     min-height: 100%;
 }
 
 .pimg2{
-    background-image:url('https://marnielane.github.io/portfolio/images/columbines.jpg');
+    background-image:url('./images/columbines.jpg');
     min-height: 400px;
 }
 
 .pimg3{
-    background-image:url('https://marnielane.github.io/portfolio/images/pillows-on-grass.jpg');
+    background-image:url('./images/pillows-on-grass.jpg');
     min-height: 400px;
 }
 
 .pimg4{
-    background-image:url('https://marnielane.github.io/portfolio/images/mayflower.jpg');
+    background-image:url('./images/mayflower.jpg');
     min-height: 100%;
     opacity: .8;
 }

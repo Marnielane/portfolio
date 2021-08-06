@@ -87,7 +87,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
-    background-image:url('marnielane.github.io/portfolio/projects/treelights2.jpg');
+    background-image:url('./images/treelights2.jpg');
     width: 100%;
     height: 100%;
     letter-spacing: 0.02em;
@@ -136,7 +136,7 @@ body{
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('marnielane.github.io/portfolio/png/runeruminations.png');
+    background-image: url('./png/runeruminations.png');
     background-repeat: no-repeat;
 }
 
@@ -145,7 +145,7 @@ body{
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('marnielane.github.io/portfolio/png/WiTTYWomen.png');
+    background-image: url('./png/WiTTYWomen.png');
     background-repeat: no-repeat;
 }
 
@@ -154,7 +154,7 @@ body{
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('marnielane.github.io/portfolio/png/MRLogo.png');
+    background-image: url('./png/MRLogo.png');
     background-repeat: no-repeat;
 }
 
