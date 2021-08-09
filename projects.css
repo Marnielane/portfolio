@@ -97,19 +97,19 @@ body{
 
 .blurred-box{
     position: relative;
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 500px;
     top: calc(50% - 175px);
     left: calc(50% - 125px);
     background: inherit;
-    border-radius: 2px;
+    border-radius: 20px;
     overflow: hidden;
 }
 
 .blurred-box:after{
     content: '';
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 450px;
     background: inherit; 
     position: absolute;
     left: -25px;
@@ -117,7 +117,7 @@ body{
     top: -25px;  
     bottom: 0;
     box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
-    filter: blur(10px);
+    filter: blur(20px);
 }
 
 .project-box{
@@ -150,11 +150,29 @@ body{
 }
 
 .tech-icon3{
-    width: 100px;
+    width: 225px;
+    height: 125px;
+    position: relative;
+    background-size: contain;
+    background-image: url('./png/MRLogoWhite.png');
+    background-repeat: no-repeat;
+}
+
+.tech-icon4{
+    width: 200px;
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('./png/MRLogo.png');
+    background-image: url('./png/WSLogo.png');
+    background-repeat: no-repeat;
+}
+
+.tech-icon5{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background-size: contain;
+    background-image: url('./png/BTELogo.png');
     background-repeat: no-repeat;
 }
 
