@@ -136,7 +136,7 @@ body{
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('./png/runeruminations.png');
+    background-image: url('./png/BTELogo.png');
     background-repeat: no-repeat;
 }
 
@@ -145,8 +145,10 @@ body{
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('./png/WiTTYWomen.png');
+    background-image: url('./png/WSLogo.png');
     background-repeat: no-repeat;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .tech-icon3{
@@ -154,16 +156,16 @@ body{
     height: 125px;
     position: relative;
     background-size: contain;
-    background-image: url('./png/MRLogoWhite.png');
+    background-image: url('./png/UISmoke.png');
     background-repeat: no-repeat;
 }
 
 .tech-icon4{
-    width: 200px;
-    height: 100px;
+    width: 245px;
+    height: 125px;
     position: relative;
     background-size: contain;
-    background-image: url('./png/WSLogo.png');
+    background-image: url('./png/runeruminations.png');
     background-repeat: no-repeat;
 }
 
@@ -172,7 +174,16 @@ body{
     height: 100px;
     position: relative;
     background-size: contain;
-    background-image: url('./png/BTELogo.png');
+    background-image: url('./png/WiTTYWomen.png');
+    background-repeat: no-repeat;
+}
+
+.tech-icon6{
+    width: 200px;
+    height: 165px;
+    position: relative;
+    background-size: contain;
+    background-image: url('./png/MRLogoWhite.png');
     background-repeat: no-repeat;
 }
 
